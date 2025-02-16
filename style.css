@@ -16,12 +16,13 @@ body {
 
 /* Centered Container */
 .container {
-    max-width: 400px; /* Reduce width */
-    width: 90%; /* Make it responsive */
+.container {
+    width: 350px; /* Adjust as needed */
+    height: 250px; /* Adjust height */
     margin: auto;
     padding: 20px;
     border-radius: 10px;
-    background: rgba(255, 255, 255, 0.1);
+    background: #111;
     box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
 }
 /* Title Styling */
