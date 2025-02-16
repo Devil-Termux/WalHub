@@ -7,23 +7,21 @@
 
 /* Body Styling */
 body {
-    background-color: #000;
-    color: #fff;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Keep background black */
+    display: flex;
+    justify-content: center;
 }
 
-/* Centered Container */
 .container {
-.container {
-    width: 350px; /* Adjust as needed */
-    height: 250px; /* Adjust height */
-    margin: auto;
+    width: 100%; /* Make it full width */
+    max-width: 800px; /* Adjust this if needed */
     padding: 20px;
+    background-color: #111;
     border-radius: 10px;
-    background: #111;
-    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+    text-align: center;
 }
 /* Title Styling */
 h1 {
