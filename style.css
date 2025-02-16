@@ -1,30 +1,80 @@
-<style>
-    /* Fixes dark mode background issue */
-    body {
-        background-color: #000 !important;
-        color: #fff !important;
-        font-family: Arial, sans-serif;
-    }
+/* Reset default margin & padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    .link-button {
-        display: inline-block;
-        width: 100px;
-        padding: 8px;
-        font-size: 12px;
-        font-weight: bold;
-        color: #000 !important;
-        text-transform: uppercase;
-        text-align: center;
-        text-decoration: none;
-        border-radius: 6px;
-        background: #ff9900 !important;
-        box-shadow: 0px 3px 8px rgba(255, 153, 0, 0.5);
-        transition: 0.3s ease-in-out;
-    }
+/* Body Styling */
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
 
-    .link-button:hover {
-        transform: scale(1.1);
-        background: #ffcc00 !important;
-        box-shadow: 0px 5px 12px rgba(255, 204, 0, 0.7);
-    }
-</style>
+/* Centered Container */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Title Styling */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #ffcc00;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+/* Buttons Styling */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.link-button {
+    display: block;
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    background: #ff9900;
+    box-shadow: 0px 3px 8px rgba(255, 153, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+.link-button:hover {
+    transform: scale(1.1);
+    background: #ffcc00;
+    box-shadow: 0px 5px 12px rgba(255, 204, 0, 0.7);
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+}
