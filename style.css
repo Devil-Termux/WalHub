@@ -16,14 +16,14 @@ body {
 
 /* Centered Container */
 .container {
-    max-width: 600px;
+    max-width: 400px; /* Reduce width */
+    width: 90%; /* Make it responsive */
     margin: auto;
     padding: 20px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0px 5px 15px rgba(255, 255, 255, 0.2);
 }
-
 /* Title Styling */
 h1 {
     font-size: 28px;
