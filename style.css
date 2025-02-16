@@ -1,48 +1,64 @@
-/* Reset default margin & padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body Styling */
+/* General body styling */
 body {
+    background-color: #000 !important;
+    color: #fff !important;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000; /* Keep background black */
     display: flex;
     justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
+/* Main container */
 .container {
-    width: 100%; /* Make it full width */
-    max-width: 800px; /* Adjust this if needed */
-    padding: 20px;
     background-color: #111;
+    padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
     text-align: center;
 }
-/* Title Styling */
-h1 {
+
+/* Site name */
+.site-name {
     font-size: 28px;
-    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
 }
 
+.highlight {
+    background-color: #ff9900;
+    color: black;
+    padding: 3px 8px;
+    border-radius: 6px;
+}
+
+/* Stylish Horizontal Rule */
+.stylish-hr {
+    width: 80%;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #ff9900, transparent);
+    border: none;
+    margin: 15px auto;
+}
+
+/* Headings */
 h2 {
     font-size: 20px;
-    color: #ffcc00;
-    margin-bottom: 15px;
+    font-weight: bold;
+    color: #ff9900;
+    margin-bottom: 8px;
 }
 
-p {
+h3 {
     font-size: 14px;
-    margin-bottom: 20px;
     color: #ccc;
+    margin-bottom: 20px;
+    line-height: 1.5;
 }
 
-/* Buttons Styling */
-.button-container {
+/* Link buttons */
+.link-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,30 +66,30 @@ p {
 }
 
 .link-button {
-    display: block;
-    width: 150px;
-    padding: 10px;
-    font-size: 16px;
+    display: inline-block;
+    width: 100px;
+    padding: 8px;
+    font-size: 12px;
     font-weight: bold;
-    color: #000;
+    color: #000 !important;
     text-transform: uppercase;
     text-align: center;
     text-decoration: none;
     border-radius: 6px;
-    background: #ff9900;
+    background: #ff9900 !important;
     box-shadow: 0px 3px 8px rgba(255, 153, 0, 0.5);
     transition: 0.3s ease-in-out;
 }
 
 .link-button:hover {
     transform: scale(1.1);
-    background: #ffcc00;
+    background: #ffcc00 !important;
     box-shadow: 0px 5px 12px rgba(255, 204, 0, 0.7);
 }
 
-/* Footer */
-.footer {
+/* Footer text */
+.footer-text {
+    font-size: 10px;
+    color: #777;
     margin-top: 20px;
-    font-size: 12px;
-    color: #999;
 }
